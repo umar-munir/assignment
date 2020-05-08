@@ -1,0 +1,375 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+.fa-angle-right{
+    float: right;
+    }
+.na{
+    
+    margin-left: 20%;
+}
+
+
+
+
+.nav-link:hover{
+    background-color:royalblue;
+    border-radius: 20px;
+    color: white;
+}
+.active{
+    
+    border-radius: 30px;
+    background-color: royalblue;
+}
+.information{
+    width: 80%;
+    height: 30px;
+    margin: 10px auto;
+    background-color: #316DC3;
+    color: white;
+}
+.intro{
+    
+    text-align: center;
+}
+#in{
+    color: royalblue;
+
+}
+#duc{
+    color: green;
+}
+.intro {
+    width: 60%;
+    height: auto;
+    margin: 0px auto;
+    padding-bottom: 50px;
+}
+.para {
+    text-align: justify;
+    margin-top: 20px;
+    color: #707071;
+    line-height: 2;
+    font-size: 16px;
+}
+.main{
+    text-align: center;
+    
+}
+.main-content{
+    display: flex;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    width: 100%;
+    height: 260px;
+    margin: 0px auto;
+
+}
+
+#month{
+    color: #00FF00;
+}
+.main .main-content .daily .madi .family .edu{
+    float: left;
+    width: 24.25;
+    margin-right: 1%;
+}
+.what{
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+.service {
+    box-shadow: 2px 10px 30px 2px #888888;
+    float: left;
+    height: 200px;
+    line-height: 30px;
+    background-color: white;
+    width: 29.3%;
+    margin: 2%;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.project{
+    width: 75%;
+    height: auto;
+    margin: 0px auto;
+    float: left;
+}
+.mission{
+    width: 100%;
+    float: left;
+    margin: 2%;
+}
+
+
+#mission {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border-bottom: 0.5px solid #EEEEEE;
+    color: #316DC3;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+}
+.project-list {
+    width: 47%;
+    height: 80px;
+    background-color: #F7F8FA;
+    float: left;
+    margin-bottom: 2%;
+    padding: 10px;
+    
+}
+
+.gallery {
+    color: #427900;
+    text-align: center;
+}
+
+.image-list a img {
+    width: 200px;
+    float: left;
+    height: 200px;
+    margin-top: 30px;
+    cursor: pointer;
+    
+}
+
+.image-list img:hover {
+    opacity: 0.7;
+}
+
+
+.footer {
+    width: 100%;
+   
+}
+
+.contacts {
+    width: 100%;
+    
+    background-color: #25272E;
+}
+
+.contact-content {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 60px 0px;
+    overflow: hidden;
+}
+
+#address {
+    width: 33%;
+    color: #A5A5A6;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    float: left;
+}
+
+#address ul {
+    padding: 15px;
+}
+
+#address ul li {
+    padding: 3px;
+    font-size: 18px;
+    list-style-type: none;
+    float: left;
+    margin-right: 5px;
+}
+
+#address ul li i {
+    color: #427900;
+}
+
+#usefull-links {
+    width: 33%;
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    color: white;
+    
+    border-bottom: 1px solid #444444;
+    float: left;
+    
+    margin-right: 1%;
+}
+
+#usefull-links::after {
+    content: "";
+    height: 0px;
+    position: absolute;
+    top: 20;
+    width: 45px;
+    border: 1px solid #427900;
+}
+.copyright {
+        clear: both;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        background-color: #316DC3;
+        margin: -5px auto;
+    }
+
+    .copyright p {
+        width: 75%;
+        height: auto;
+        margin: 0px auto;
+        color: white;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px)
+.event {
+    width: 29.3%;
+}
+@media only screen and (min-width: 600px)
+.project, .mission, .events {
+    width: 98%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px)
+#literacy, #hepatitis {
+    margin-right: 3%;
+}
+@media only screen and (min-width: 600px)
+#literacy, #hepatitis {
+    margin-right: 0%;
+}
+#literacy, #hepatitis {
+    margin-right: 3%;
+}
+@media only screen and (min-width: 768px)
+.project-list {
+    width: 47%;
+}
+
+@media only screen and (min-width: 600px)
+.project-list {
+    width: 100%;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px)
+.mission {
+    width: 62.6%;
+}
+
+@media only screen and (min-width: 600px)
+.project, .mission, .events {
+    width: 98%;
+}
+
+@media only screen and (min-width: 768px)
+.services {
+    width: 29.3%;
+    margin: 2%;
+}
+@media only screen and (min-width: 600px)
+.services {
+    width: 96%;
+    margin: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media only screen and (max-width: 600px){
+    .a{
+        text-align:center;
+    }
+} 
+@media only screen and (max-width: 600px){
+    .col-xs-12{
+        width: 100%;
+        text-align: center;
+        
+    }
+} 
